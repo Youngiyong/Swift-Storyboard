@@ -17,6 +17,7 @@
 		94B353EA2813A6B400B6C232 /* NRCOnboardingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B353E92813A6B400B6C232 /* NRCOnboardingUITestsLaunchTests.swift */; };
 		94B353FB2813B1B700B6C232 /* OnboardingMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B353FA2813B1B700B6C232 /* OnboardingMessage.swift */; };
 		BCC335CF2872D7F40053E8D5 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC335CE2872D7F40053E8D5 /* OnBoardingViewController.swift */; };
+		BCC335D52873E9EA0053E8D5 /* OnBoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC335D42873E9EA0053E8D5 /* OnBoardCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		94B353E92813A6B400B6C232 /* NRCOnboardingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRCOnboardingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		94B353FA2813B1B700B6C232 /* OnboardingMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingMessage.swift; sourceTree = "<group>"; };
 		BCC335CE2872D7F40053E8D5 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		BCC335D42873E9EA0053E8D5 /* OnBoardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				94B353CF2813A6B400B6C232 /* Assets.xcassets */,
 				94B353D12813A6B400B6C232 /* LaunchScreen.storyboard */,
 				94B353D42813A6B400B6C232 /* Info.plist */,
+				BCC335D42873E9EA0053E8D5 /* OnBoardCell.swift */,
 			);
 			path = NRCOnboarding;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			files = (
 				94B353C72813A6B300B6C232 /* AppDelegate.swift in Sources */,
 				94B353C92813A6B300B6C232 /* SceneDelegate.swift in Sources */,
+				BCC335D52873E9EA0053E8D5 /* OnBoardCell.swift in Sources */,
 				94B353FB2813B1B700B6C232 /* OnboardingMessage.swift in Sources */,
 				BCC335CF2872D7F40053E8D5 /* OnBoardingViewController.swift in Sources */,
 			);
@@ -441,7 +445,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = C98APEMDUR;
+				DEVELOPMENT_TEAM = Z985J79ZCC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NRCOnboarding/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -454,7 +458,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.joonwon.NRCOnboarding;
+				PRODUCT_BUNDLE_IDENTIFIER = giyong.NRCOnboarding;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -469,7 +473,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = C98APEMDUR;
+				DEVELOPMENT_TEAM = Z985J79ZCC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NRCOnboarding/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -482,7 +486,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.joonwon.NRCOnboarding;
+				PRODUCT_BUNDLE_IDENTIFIER = giyong.NRCOnboarding;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -497,7 +501,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = C98APEMDUR;
+				DEVELOPMENT_TEAM = Z985J79ZCC;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0;
@@ -517,7 +521,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = C98APEMDUR;
+				DEVELOPMENT_TEAM = Z985J79ZCC;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0;
@@ -536,7 +540,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = C98APEMDUR;
+				DEVELOPMENT_TEAM = Z985J79ZCC;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.joonwon.NRCOnboardingUITests;
@@ -554,7 +558,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = C98APEMDUR;
+				DEVELOPMENT_TEAM = Z985J79ZCC;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.joonwon.NRCOnboardingUITests;
